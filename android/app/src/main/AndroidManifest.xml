@@ -11,6 +11,7 @@
         android:name=".MainApplication"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:fullBackupContent="@xml/appcenter_backup_rule"
         android:usesCleartextTraffic="true" tools:targetApi="28"
         android:theme="@style/Theme.ContactPicker">
         <activity android:name="com.demoproject.MainActivity2">
