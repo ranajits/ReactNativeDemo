@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId "com.ranajit.contactpicker"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -65,7 +65,7 @@ dependencies {
         exclude group: 'com.facebook.flipper'
     }
 
-    def appCenterSdkVersion = '4.1.1'
+    def appCenterSdkVersion = '4.1.0'
     implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
     implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
 
